@@ -14,4 +14,6 @@
 # dataset = TUDataset(root='/tmp/ENZYMES', name='ENZYMES')
 # print(len(dataset))
 
+import torch
+
 
