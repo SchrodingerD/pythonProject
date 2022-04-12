@@ -1,6 +1,6 @@
 import numpy as np
 graph = [
-    [0,0,1,2,3],
+    [0,1,2,3,4],
     [1,2,3,3,4]
 ]
 
@@ -18,7 +18,7 @@ for i in range(len(graph[0])):
     temp_roots = []
 
 # enumerate()函数用以获取数组的index和values
-    for index,value in enumerate(graph[1]):
+    for index,value in enumerate(graph[0]):
         if index == i:
             temp_roots.append(graph[0][index])
     temp_roots.append(i)
